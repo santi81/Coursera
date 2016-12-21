@@ -1,0 +1,21 @@
+compile
+test
+compile
+run
+test
+submit santosh.kumar.addanki@sap.com UkoPWsLEycJlZtXm
+submit santosh.kumar.addanki@sap.com zry8JaTgkscwpTMA
+clear
+import example.Lists._
+console
+submit santosh.kumar.addanki@sap.com zry8JaTgkscwpTMA
+clear
+console
+submit
+submit santosh.kumar.addanki@sap.com zry8JaTgkscwpTMA
+sbt
+console
+submit santosh.kumar.addanki@sap.com zry8JaTgkscwpTMA
+clear
+submit santosh.kumar.addanki@sap.com xWiNHTZbYw2Cq6V8
+submit santosh.kumar.addanki@sap.com zry8JaTgkscwpTMA
