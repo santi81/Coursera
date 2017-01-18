@@ -2817,7 +2817,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 927ms :: artifacts dl 31ms
+[debug] :: resolution report :: resolve 1009ms :: artifacts dl 50ms
 [debug] 	report for default#example-build;0.1-SNAPSHOT compile produced in /Users/i033085/gitrepos/Coursera/FunctionalDesign/example/project/target/resolution-cache/reports/default-example-build-compile.xml
 [debug] 	report for default#example-build;0.1-SNAPSHOT runtime produced in /Users/i033085/gitrepos/Coursera/FunctionalDesign/example/project/target/resolution-cache/reports/default-example-build-runtime.xml
 [debug] 	report for default#example-build;0.1-SNAPSHOT test produced in /Users/i033085/gitrepos/Coursera/FunctionalDesign/example/project/target/resolution-cache/reports/default-example-build-test.xml
@@ -2831,5 +2831,5 @@
 [debug] 	report for default#example-build;0.1-SNAPSHOT docs produced in /Users/i033085/gitrepos/Coursera/FunctionalDesign/example/project/target/resolution-cache/reports/default-example-build-docs.xml
 [debug] 	report for default#example-build;0.1-SNAPSHOT pom produced in /Users/i033085/gitrepos/Coursera/FunctionalDesign/example/project/target/resolution-cache/reports/default-example-build-pom.xml
 [debug] 	report for default#example-build;0.1-SNAPSHOT scala-tool produced in /Users/i033085/gitrepos/Coursera/FunctionalDesign/example/project/target/resolution-cache/reports/default-example-build-scala-tool.xml
-[debug] 	resolve done (927ms resolve - 31ms download)
+[debug] 	resolve done (1009ms resolve - 50ms download)
 [info] Done updating.
