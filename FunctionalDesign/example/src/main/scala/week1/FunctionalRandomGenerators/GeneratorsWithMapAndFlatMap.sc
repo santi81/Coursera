@@ -85,7 +85,30 @@ def oneOfT[T](xs:T*): Generator[T] = {
   choose(0,xs.length) map {idx => xs(idx)}
 }
 
-oneOfT[String]("Santosh","Kumar","Addanki").generate
+// oneOfT[String]("Santosh","Kumar","Addanki").generate
+def emptyLists = single(Nil)
+def lists: Generator[List[Int]] =
+  for {
+    isEmpty <- booleans
+    list <- if (isEmpty) emptyLists else nonEmptyLists
+
+  } yield list
+
+//def lists = booleans map (x => if(x) emptyLists else nonEmptyLists)
+
+/*def lists_v2 = booleans flatMap(isEmpty => (if (isEmpty) emptyLists else nonEmptyLists) map {x=>x} )*/
+
+ /* def nonEmptyLists = for {
+    head <- integers
+    tail <- lists
+  }yield head::tail*/
+
+
+def nonEmptyLists = integers flatMap(head => lists map {tail => head :: tail})
+
+
+lists.generate
+
 
 
 
